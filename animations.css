@@ -1,0 +1,137 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+.Z-INDEX{
+    border:2px solid black;
+}
+.img{
+    position:absolute;
+    top:0%;
+    left: 10%;
+    height: 300px;
+    width: 200px;
+    z-index: -1;
+    margin:40px;
+   
+
+}
+.overflow{
+    border:2px solid black;
+}
+div.overflow1{
+   width: 800px;
+   height:100px;
+   background-color: blueviolet;
+   overflow: visible;
+}
+div.overflow2{
+    width: 800px;
+    height:100px;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+div.overflow3{
+    width: 800px;
+    height:100px;
+    background-color: blueviolet;
+    overflow: scroll;
+}
+div.float{
+    border:2px solid black;
+}
+img.floatright{
+    float:right;
+}
+div.pseudocls{
+    border: 2px solid black;
+}
+button{
+    height:50px;
+    width:500px;
+    margin:20px;
+}
+.but:hover{
+   background-color: red;
+   color:white;
+}
+.but:active{
+    background-color:blue;
+}
+div.pseudoele{
+    border:2px solid black;
+}
+h3::before{
+    content: url(./bts.png.jpg);
+}
+div.trans{
+    width: 50px;
+    height:100px;
+    background: hotpink;
+    transition: width 3s;
+}
+div.trans:hover{
+    width:400px;
+}
+div.trans1{
+    width: 50px;
+    height:100px;
+    background:blue;
+    transition: 3s;
+    transition-delay: 2s;
+}
+div.trans1:hover{
+    width:300px;
+}
+div.trans2{
+    width: 50px;
+    height:100px;
+    background:blue;
+    transition: 3s;
+}
+div.function1{
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+    
+}
+div.function1{
+    transition-timing-function: linear;
+}
+div.funciton2{
+    width:100px;
+    height:100px;
+    background-color: greenyellow;
+}
+div.function2{
+  
+    transition-timing-function: ease;
+}
+
+
+div.function3{
+    transition-timing-function: ease-in;
+}
+div.function4{
+    transition-timing-function: ease-out;
+}
+div.function5{
+    transition-timing-function: ease-in-out;
+}
+div.timing:hover{
+    width: 400px;
+}
+div.method{
+    border:2px solid black;
+}
+.rotate{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    border: 3px solid blue;
+    background-color: aqua;
+    opacity: 5px;
+}
+#rot{
+    transform: rotateZ(90deg);
+}
